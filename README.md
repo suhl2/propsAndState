@@ -1,2 +1,2 @@
 # UNIV.Lab.WelcomeToReact
-A tutorial building a basic React project
+Follow the instructions in the workshop to complete this lab.
