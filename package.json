@@ -1,5 +1,5 @@
 {
-  "name": "UNIV.Lab.WelcomeToReact",
+  "name": "UNIV.Lab.PropsAndState",
   "version": "1.0.0",
   "description": "Follow the instructions in the workshop to complete this lab.",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FullstackAcademy/UNIV.Lab.WelcomeToReact.git"
+    "url": "git+https://github.com/FullstackAcademy/UNIV.Lab.PropsAndState.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FullstackAcademy/UNIV.Lab.WelcomeToReact/issues"
+    "url": "https://github.com/FullstackAcademy/UNIV.Lab.PropsAndState/issues"
   },
   "dependencies": {
     "react": "^17.0.2",
