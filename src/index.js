@@ -2,8 +2,13 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
 const Color = (props) => {
+  const color = props.color;
+  const selectColor = props.selectColor;
+  const selectedColor = props.selectedColor;
+  const isSelected = selectedColor === color ? 'selected' : '';
+
   return (
-    <div className={props.color} onClick={() => props.selectColor(props.color)} />
+    <div className={`${color} ${isSelected}`} onClick={() => props.selectColor(color)} />
   )
 }
 
@@ -20,9 +25,9 @@ const Picker = () => {
         <div className={selectedColor}>{selectedColor}</div>
       </div>
       <div id="colors-list">
-        <Color  color="red" selectColor={selectColor} />
-        <Color color="green" selectColor={selectColor} />
-        <Color color="blue" selectColor={selectColor} />
+        <Color  color="red" selectColor={selectColor} selectedColor={selectedColor} />
+        <Color color="green" selectColor={selectColor} selectedColor={selectedColor}/>
+        <Color color="blue" selectColor={selectColor} selectedColor={selectedColor}/>
       </div>
     </div>
   );
